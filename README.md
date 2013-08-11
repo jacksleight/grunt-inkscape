@@ -1,3 +1,7 @@
+# WORK IN PROGRESS
+
+Most of this is the default grunt plugin template. The task works, but only supports the background-opacity and density options at the moment.
+
 # grunt-inkscape
 
 > The best Grunt plugin ever.
