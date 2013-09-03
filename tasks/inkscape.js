@@ -44,9 +44,9 @@ module.exports = function(grunt) {
 				grunt.log.writeln('✔ '.green + el.src);
 				next();
 			});
-			spawn.stderr.on('data', function(buf) {
+		/*	spawn.stderr.on('data', function(buf) {
 				grunt.fail.fatal(String(buf));
-			});
+			});*/
 
 		}, this.async());
 
