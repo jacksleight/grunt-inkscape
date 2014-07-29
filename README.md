@@ -41,47 +41,51 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
-Type: `String`
-Default value: `',  '`
+#### options.density
+Type: `Number`
+Default value: `90`
 
-A string value that is used to do something with whatever.
+DPI at which to render the SVG images
 
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
+#### options.backgroundOpacity
+Type: `Number`
+Default value: `1`
 
-A string value that is used to do something else with whatever else.
+Background opacity of exported bitmap (either 0.0 to 1.0, or 1 to 255)
 
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+In this example, all SVG files in the project root will be rendered as PNGs using the default options. The PNG files will be written to the `dest` folder, with '.png' appended to the file name.
 
 ```js
 grunt.initConfig({
   inkscape: {
     options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
+    files: [{
+        expand: true,
+        src: ['*.svg'],
+        dest: 'dest/',
+        ext: '.svg.png'
+      }
+    ]},
 })
 ```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+In this example, the export DPI is set to 300. This might be useful for generating a file to send to print.
 
 ```js
 grunt.initConfig({
   inkscape: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      density: 300
     },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    files: [{
+        expand: true,
+        src: ['*.svg'],
+        dest: 'dest/'
+    }]
   },
 })
 ```
