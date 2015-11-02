@@ -14,7 +14,7 @@ Background opacity of exported bitmap (either 0.0 to 1.0, or 1 to 255).
 Type: `Number`
 Default value: `90`
 
-DPI at which to render the SVG images.
+DPI at which to render the SVG images.  
 This was renamed to dpi in Inkscape, but it's still called density in this plugin.
 
 ### Usage Examples
