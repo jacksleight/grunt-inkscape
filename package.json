@@ -1,6 +1,6 @@
 {
   "name": "grunt-inkscape",
-  "description": "The best Grunt plugin ever.",
+  "description": "Inkscape plugin for Grunt",
   "version": "0.1.2",
   "homepage": "https://github.com/jacksleight/grunt-inkscape",
   "author": {
