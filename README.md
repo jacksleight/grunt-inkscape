@@ -1,5 +1,7 @@
 # grunt-inkscape
 
+**Sorry, I'm no longer actively maintaining this project. If you have a specfic request please create an issue and I'll get to it if I can, alternativelty pull requests are very welcome. If anyone wants to take over this project they're more than welcome, just get in touch.**
+
 ### Options
 
 Please refer to [https://inkscape.org/en/doc/inkscape-man.html#options](https://inkscape.org/en/doc/inkscape-man.html#options) for more information.
