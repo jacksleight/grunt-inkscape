@@ -1,6 +1,6 @@
 # grunt-inkscape
 
-**Sorry, I'm no longer actively maintaining this project. If you have a specfic request please create an issue and I'll get to it if I can, alternativelty pull requests are very welcome. If anyone wants to take over this project they're more than welcome, just get in touch.**
+**Sorry, I'm no longer actively maintaining this project. If you have a specfic request please create an issue and I'll try to take a look when I can, alternatively pull requests are very welcome. If anyone wants to take over this project they're more than welcome, just get in touch.**
 
 ### Options
 
