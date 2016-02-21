@@ -1,7 +1,7 @@
 {
   "name": "grunt-inkscape",
   "description": "Inkscape plugin for Grunt",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/jacksleight/grunt-inkscape",
   "author": {
     "name": "Jack Sleight",
