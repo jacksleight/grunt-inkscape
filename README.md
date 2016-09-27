@@ -2,7 +2,7 @@
 
 # grunt-inkscape
 
-**Sorry, I'm no longer actively maintaining this plugin. If you have a specfic request please create an issue and I'll try to take a look when I can, alternatively pull requests are very welcome. If anyone wants to take it over they're more than welcome, just get in touch.**
+**I'm no longer actively maintaining this plugin. If you have a specfic request feel free to create an issue and I'll try to take a look if I can, alternatively pull requests are very welcome. If anyone wants to take it over they're more than welcome, just get in touch.**
 
 ### Installation
 
