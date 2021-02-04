@@ -2,8 +2,6 @@
 
 # grunt-inkscape
 
-**I'm no longer maintaining this plugin. If anyone wants to take it over they're more than welcome, just get in touch.**
-
 ### Installation
 
 You must have Inkscape installed and available via the `inkscape` command.
